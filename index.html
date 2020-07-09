@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bienvenidos a Tina Pasteleria"> <!-- sirve que al buscar nuestra pagina, le muestre debajo ese comentario que se pone -->
+    <title>Tina Pastelería</title> <!-- Es el titulo que muestra en las pestanias la pagina -->
+    <link rel="stylesheet" href="styles.css"> <!-- Toma el estilo del documento hecho en css que se llama styles.css -->
+    <link rel="shortcut icon" href="tina.png"><!-- Coloca el pequenio iconito que sale en las pestanias, atravez de la imagen q tomamos en este caso tina.png -->
+</head>
+<body>
+    
+    <header><img src="img/logo_tina.png" srcset="img/logo_tina.png 2x" style="width:400px; height:400px " alt=""> </header><!-- Es el encabezado principal, comunmente coloca el logo de la pagina, el 3x, demostrara el device pixel ratio para celulares de gama alta, modifique y ubique esa imagen para q sea viisble en esos dispositivos. -->
+    <h1>Esta es la pagina de Tina Pasteleria</h1> <!-- Es el encabezado numero 1 -->
+   
+    <nav><!--  Aca va la navegacion, entonces se colocan las secciones de la pagina web -->
+        <a href="#"> Inicio </a> <!-- donde va el #, es hacia donde me va a redirigir, por ejemplo una URL, si esta el # no me envia a ningun link -->
+        <a href="contacto.html">Contacto</a><!-- Aca me va a redirigir a la direccion de "contacto.html" -->
+        <a href="recetas.html"> Recetas </a>
+    </nav>
+    
+    <article><!-- Sirve para mostrar contenido, para mostrar un articulo aparte en el cuerpo -->
+        <section><!-- En section, es para dividir el articulo por secciones para que se vea mas prolijo -->
+            <h2>Mi primera torta</h2><!-- Aca van los encabezados por orden de jerarquia -->
+            <p>Esta fue la primera torta que hice, para mi novio</p> <!-- la <p> representa los parrafos que va a tener esa seccion -->
+        </section>
+        <section>
+            <h2>Mi segunda torta</h2>
+            <p>Esta fue la torta que hice para mi hermana</p>
+        </section>
+    </article>
+    <aside><!-- Aca se colocan datos q no son de la pagina, por ejemplo botones de redes sociales -->
+        <p>
+            <a href="https://www.instagram.com/tina_pasteleria/?hl=es-la"><img src="img/instagram.jpg" alt=""></a>
+            <a href="https://www.facebook.com/Tina-Pasteleria-146556699114855"><img src="img/face.jpg" alt=""></a>
+        </p>
+    </aside>
+    <footer><!-- Aca se coloca el pie de pagina, por ejemplo para poner los creditos -->
+        <p>Adrian Chaparro Creo esta pagina</p>
+        <p>2020 para Agustina Sanchez</p>
+
+    </footer>
+    <script src="scripts.js"></script> <!-- Tomamos el archivo de js que hemos desarrollados que se llama scripts.js -->
+</body>
+</html>
